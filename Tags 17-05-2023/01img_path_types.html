@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML IMAGE TAG</title>
+    <base href="">
+</head>
+<body>
+
+    <h1>HTML <span class="color_h1">&lt;img&gt;</span> Tag</h1>
+
+    <h2>Definition and Usage</h2>
+
+    <p>The <code class="w3-codespan">&lt;img&gt;</code> tag is used to embed an image in an HTML page.</p>
+
+    <p>Images are not technically inserted into a web page; images are linked to web pages.</p> 
+
+    <p>The <code class="w3-codespan">&lt;img&gt;</code> tag creates a holding space for the referenced image.</p>
+
+    <p>The <code class="w3-codespan">&lt;img&gt;</code> tag has two required attributes:</p>
+
+    <ul>
+            <li>src - Specifies the path to the image</li>
+            <li>alt - Specifies an alternate text for the image, if the image for some 
+            reason cannot be displayed</li>
+    </ul>
+    <p>
+        <strong>Note:</strong> Also, always specify the width and height of an image. 
+            If width and height are not specified, the page might flicker while the image 
+            loads.
+    </p>  
+    
+    <img src="HTML IMAGE.PNG" alt="">
+
+
+    <h2>Absolute Path</h2>
+    <p>Exact location</p>
+    <p>Exact location of loaded file from executed file</p>
+    <img src="file:///G:/HTML%20Tops/HTML%20IMAGE.PNG" alt="">
+
+
+    <img src="G:\HTML Tops\HTML IMAGE.PNG" alt="">
+    
+    
+    <h2>Relative Path</h2>
+    <p>Executed file and loaded file will be sync with eachother</p>
+    <p>Placement of Executed file and loaded file will be related</p>
+    <img src="../HTML IMAGE.PNG" alt="">
+    
+    <p>../ => 1 backspace </p>
+    <p>../../ => 2 backspace </p>
+
+
+</body>
+</html>
