@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        
+        <table  align="center">
+            <caption><h2>Customer</h2></caption>
+            <tr>
+                <td><label for="Name">Name*</label></td>
+                <td><input type="text" name="Name" id="Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email*</label></td>
+                <td><input type="email" name="Email" id="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="Investment">Investment*</label></td>
+                <td>               
+                    <select  name="Investment" id="Investment">
+                    <option value="">--Please Choose Value--</option>
+                    <option value="2000">2000</option>
+                    <option value="4000">4000</option>
+                    <option value="6000">6000</option>
+                    <option value="8000">8000</option>
+                </select>
+            </td>
+            <tr>
+                <td><label for="Date Joined">Date Joined*</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="Active">Active</label></td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button>OK</button>
+                    <button>Cancel</button>
+                </td>
+            </tr>
+               
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
